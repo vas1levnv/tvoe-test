@@ -1,8 +1,8 @@
 import type {Metadata} from 'next'
 import {Inter} from 'next/font/google'
 import './globals.css'
-import Link from "next/link";
 import Sidebar from "@/app/components/sidebar/sidebar";
+import style from "./page.module.scss"
 
 const inter = Inter({subsets: ['latin']})
 
@@ -21,7 +21,7 @@ export default function RootLayout({
 		<body className={inter.className}>
 		<div className="app">
 			<Sidebar/>
-			<div>{children}</div>
+			<main className={style.content}>{children}</main>
 		</div>
 		</body>
 		</html>
