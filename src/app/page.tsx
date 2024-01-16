@@ -4,7 +4,7 @@ export default function Home() {
 	return (
 		<main>
 			<div>
-				<Link href="/movie/12">Movie</Link>
+				<div><Link href="/movie/12">Movie</Link></div>
 			</div>
 		</main>
 	)
