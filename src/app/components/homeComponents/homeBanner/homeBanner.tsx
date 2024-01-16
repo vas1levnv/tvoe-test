@@ -10,9 +10,9 @@ export default function HomeBanner() {
 			<Image src={banner} className={style.bannerImage} alt="banner"/>
 			<div className={style.bannerContent}>
 				<Image src={bannerName} alt="bannerName"/>
-				<div className={style.bannerText}>
+				<h2 className={style.bannerText}>
 					Неувядающий авантюрист и пытливый археолог-исследователь по‑прежнему в седле.
-				</div>
+				</h2>
 				<div className={style.bannerBtns}>
 					<CustomButton background={'linear-gradient(90deg, #6A11CB 0%, #2575FC 100%)'}
 					>Смотреть</CustomButton>
