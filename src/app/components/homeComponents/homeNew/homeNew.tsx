@@ -81,7 +81,7 @@ export default function HomeNew() {
 		<div className={style.new}>
 			<h2>Новинки</h2>
 			<Swiper className={style.newSwiper}
-					spaceBetween={50}
+					spaceBetween={44}
 					slidesPerView={3.9}
 			>
 				{movies.map((item) => <SwiperSlide
