@@ -1,0 +1,18 @@
+.sidebar {
+	display: flex;
+	flex-direction: column;
+	gap: 1.5rem;
+	
+	&Link {
+		height: 54px;
+		width: 54px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		
+		svg {
+			width: 80%;
+			height: 80%;
+		}
+	}
+}
