@@ -1,4 +1,37 @@
-.new{
+.new {
 	padding-left: 212px;
 	margin-top: 3.5rem;
+	
+	&Swiper {
+		margin-top: 1.5rem;
+		
+		&Slide {
+			position: relative;
+			font-size: 1.75rem;
+			
+		}
+		
+		&Raiting {
+			position: absolute;
+			top: 1.75rem;
+			left: 1.75rem;
+			background: var(--gradient-blue);
+			padding: 0.5rem 1.25rem;
+			border-radius: 0.75rem;
+			width: 85px;
+			text-align: center;
+			font-weight: 500;
+		}
+		
+		&Image {
+			border-radius: var(--border-radius);
+			overflow: hidden;
+			margin-bottom: 1.25rem;
+			
+			img {
+				width: 100%;
+				height: 600px;
+			}
+		}
+	}
 }

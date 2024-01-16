@@ -1,5 +1,5 @@
 export default function Movie({params}: {
 	params: { movieId: string }
 }) {
-	return <div>Movie {params.movieId}</div>
+	return <div>Movies {params.movieId}</div>
 }
