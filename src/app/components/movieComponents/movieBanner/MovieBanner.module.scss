@@ -1,0 +1,31 @@
+.movieBanner{
+	&Property{
+		display: flex;
+		align-items: center;
+		gap: 2rem;
+		margin: 2rem 0 1.25rem;
+	}
+	&Rating{
+		border-radius: 12px;
+		padding: 0.5rem 1.5rem;
+		background: rgba(255, 255, 255, 0.20);
+	}
+	
+	&Text{
+		max-width: 750px;
+	}
+	&Btns{
+		display: flex;
+		align-items: center;
+		gap: 1rem;
+		margin: 112px 0 112px;
+		svg{
+			width: 20px;
+			height: 20px;
+			transform: scale(1.5);
+			path{
+				fill: white;
+			}
+		}
+	}
+}

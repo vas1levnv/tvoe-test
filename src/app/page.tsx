@@ -7,9 +7,6 @@ export default function Home() {
 		<main>
 			<HomeBanner/>
 			<HomeNew/>
-			<div>
-				<div><Link href="/movie/12">Movie</Link></div>
-			</div>
 		</main>
 	)
 }
