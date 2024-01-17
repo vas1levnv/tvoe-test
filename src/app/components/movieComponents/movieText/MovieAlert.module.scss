@@ -1,0 +1,13 @@
+.movieText{
+	margin-top: 4rem;
+	display: flex;
+	flex-direction: column;
+	gap: 1.5rem;
+	padding-right: 5rem;
+	&Alert{
+		display: flex;
+		gap: 1rem;
+		font-weight: 400;
+		color: #4B4B4B;
+	}
+}

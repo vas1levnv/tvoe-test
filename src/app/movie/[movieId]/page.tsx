@@ -3,6 +3,8 @@ import MovieBanner from "@/app/components/movieComponents/movieBanner/movieBanne
 import movieBanner from "@/app/assets/img/movie-banner.png";
 import Image from "next/image";
 import MovieSeries from "@/app/components/movieComponents/movieSeries/movieSeries";
+import MovieText from "@/app/components/movieComponents/movieText/movieText";
+import HomeNew from "@/app/components/homeComponents/homeNew/homeNew";
 
 export default function Movie({params}: {
 	params: { movieId: string }
@@ -11,5 +13,7 @@ export default function Movie({params}: {
 		<Image className={style.moviePageBanner} src={movieBanner} alt="movie-banner"/>
 		<MovieBanner/>
 		<MovieSeries/>
+		<MovieText/>
+		<HomeNew/>
 	</div>)
 }
