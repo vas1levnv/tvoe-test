@@ -11,7 +11,7 @@ import Image, {StaticImageData} from "next/image";
 import Link from "next/link";
 
 
-export default function HomeNew() {
+export default function HomeNew(props: {name: string}) {
 
 	interface Movies {
 		id: number,
@@ -79,7 +79,7 @@ export default function HomeNew() {
 
 	return (
 		<div className={style.new}>
-			<h2>Новинки</h2>
+			<h2>{props.name}</h2>
 			<Swiper className={style.newSwiper}
 					spaceBetween={44}
 					slidesPerView={3.9}

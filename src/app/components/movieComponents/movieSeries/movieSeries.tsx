@@ -50,7 +50,14 @@ export default function MovieSeries() {
 
 	return (
 		<div className={style.new}>
-			<h2>Сезоны</h2>
+			<div className={style.newTitle}>
+				<h2>Сезоны</h2>
+				<div className={style.newTitleSeasonList}>
+					<div className={style.newTitleSeason}>1</div>
+					<div className={style.newTitleSeason}>2</div>
+					<div className={style.newTitleSeason}>3</div>
+				</div>
+			</div>
 			<Swiper className={style.newSwiper}
 					spaceBetween={20}
 					slidesPerView={3.1}

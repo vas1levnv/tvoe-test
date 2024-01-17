@@ -1,0 +1,24 @@
+.movieDescription {
+	margin-top: 60px;
+	
+	&Grid {
+		margin-top: 1.5rem;
+		display: grid;
+		grid-template-columns: 3fr 4fr 3fr;
+		gap: 1.5rem;
+		
+		&Title {
+			color: rgba(255, 255, 255, 0.30);
+			margin-bottom: 1rem;
+		}
+	}
+	
+	&Quality {
+		margin-top: -0.25rem;
+		width: fit-content;
+		border-radius: 0.5rem;
+		padding: 0.75rem;
+		background: linear-gradient(180deg, rgba(255, 255, 255, 0.10) 0%, rgba(255, 255, 255, 0.13) 50%, rgba(255, 255, 255, 0.10) 100%);
+		backdrop-filter: blur(10px);
+	}
+}

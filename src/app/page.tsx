@@ -9,7 +9,7 @@ export default function Home() {
 		<main className={style.homePage}>
 			<HomeBanner/>
 			<div className={style.homePageContent}>
-				<HomeNew/>
+				<HomeNew name={'Новинки'}/>
 			</div>
 		</main>
 	)

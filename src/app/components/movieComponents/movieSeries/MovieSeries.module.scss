@@ -1,6 +1,29 @@
 .new {
 	margin-top: 3.5rem;
 	
+	&Title {
+		display: flex;
+		align-items: center;
+		gap: 2.75rem;
+		
+		&Season {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			border-radius: 50%;
+			font-size: 1.5rem;
+			width: 2.5rem;
+			height: 2.5rem;
+			background: #232326;
+			
+			&List{
+				display: flex;
+				align-items: center;
+				gap: 1.25rem;
+			}
+		}
+	}
+	
 	&Swiper {
 		margin-top: 1.5rem;
 		
@@ -22,7 +45,7 @@
 			}
 		}
 		
-		&Time{
+		&Time {
 			margin-top: 0.75rem;
 			font-size: 1.5rem;
 		}

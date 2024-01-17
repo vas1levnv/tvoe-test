@@ -5,6 +5,7 @@ import Image from "next/image";
 import MovieSeries from "@/app/components/movieComponents/movieSeries/movieSeries";
 import MovieText from "@/app/components/movieComponents/movieText/movieText";
 import HomeNew from "@/app/components/homeComponents/homeNew/homeNew";
+import MovieDescription from "@/app/components/movieComponents/movieDescription/movieDescription";
 
 export default function Movie({params}: {
 	params: { movieId: string }
@@ -14,6 +15,7 @@ export default function Movie({params}: {
 		<MovieBanner/>
 		<MovieSeries/>
 		<MovieText/>
-		<HomeNew/>
+		<HomeNew name={'Похожее'}/>
+		<MovieDescription/>
 	</div>)
 }
